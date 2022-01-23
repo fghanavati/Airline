@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4233DC91279C583400F3B1F6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233DC90279C583400F3B1F6 /* CustomTextField.swift */; };
+		4233DC93279C599D00F3B1F6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233DC92279C599D00F3B1F6 /* CustomButton.swift */; };
+		4233DCA3279C5B5F00F3B1F6 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC95279C5B5F00F3B1F6 /* Nunito-ExtraBoldItalic.ttf */; };
+		4233DCA4279C5B5F00F3B1F6 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC96279C5B5F00F3B1F6 /* Nunito-ExtraBold.ttf */; };
+		4233DCA5279C5B5F00F3B1F6 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC97279C5B5F00F3B1F6 /* Nunito-ExtraLightItalic.ttf */; };
+		4233DCA6279C5B5F00F3B1F6 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC98279C5B5F00F3B1F6 /* Nunito-Light.ttf */; };
+		4233DCA7279C5B5F00F3B1F6 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC99279C5B5F00F3B1F6 /* Nunito-Regular.ttf */; };
+		4233DCA8279C5B5F00F3B1F6 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC9A279C5B5F00F3B1F6 /* Nunito-SemiBold.ttf */; };
+		4233DCA9279C5B5F00F3B1F6 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC9B279C5B5F00F3B1F6 /* Nunito-Bold.ttf */; };
+		4233DCAA279C5B5F00F3B1F6 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC9C279C5B5F00F3B1F6 /* Nunito-BoldItalic.ttf */; };
+		4233DCAB279C5B5F00F3B1F6 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC9D279C5B5F00F3B1F6 /* Nunito-Black.ttf */; };
+		4233DCAC279C5B5F00F3B1F6 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC9E279C5B5F00F3B1F6 /* Nunito-ExtraLight.ttf */; };
+		4233DCAD279C5B5F00F3B1F6 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DC9F279C5B5F00F3B1F6 /* Nunito-SemiBoldItalic.ttf */; };
+		4233DCAE279C5B5F00F3B1F6 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DCA0279C5B5F00F3B1F6 /* Nunito-BlackItalic.ttf */; };
+		4233DCAF279C5B5F00F3B1F6 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DCA1279C5B5F00F3B1F6 /* Nunito-Italic.ttf */; };
+		4233DCB0279C5B5F00F3B1F6 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4233DCA2279C5B5F00F3B1F6 /* Nunito-LightItalic.ttf */; };
+		4233DCB2279C5C2E00F3B1F6 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233DCB1279C5C2E00F3B1F6 /* URLs.swift */; };
+		4233DCB5279CB69300F3B1F6 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233DCB3279CB69300F3B1F6 /* DetailTableViewCell.swift */; };
+		4233DCB6279CB69300F3B1F6 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4233DCB4279CB69300F3B1F6 /* DetailTableViewCell.xib */; };
+		427473A32798447D00E37BE5 /* PassengersDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427473A22798447D00E37BE5 /* PassengersDetail.swift */; };
+		427473A727985F4600E37BE5 /* CreatePassengerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427473A627985F4600E37BE5 /* CreatePassengerViewModel.swift */; };
+		4275F2E82796EA60007BBC9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F2E72796EA60007BBC9B /* AppDelegate.swift */; };
+		4275F2EA2796EA60007BBC9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F2E92796EA60007BBC9B /* SceneDelegate.swift */; };
+		4275F2EC2796EA60007BBC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F2EB2796EA60007BBC9B /* ViewController.swift */; };
+		4275F2EF2796EA60007BBC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4275F2ED2796EA60007BBC9B /* Main.storyboard */; };
+		4275F2F12796EA64007BBC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4275F2F02796EA64007BBC9B /* Assets.xcassets */; };
+		4275F2F42796EA64007BBC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4275F2F22796EA64007BBC9B /* LaunchScreen.storyboard */; };
+		4275F3022796FBB3007BBC9B /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F3012796FBB3007BBC9B /* NetworkingManager.swift */; };
+		4275F304279703B8007BBC9B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F303279703B8007BBC9B /* HomeViewController.swift */; };
+		4275F308279735BF007BBC9B /* PassengerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F306279735BF007BBC9B /* PassengerTableViewCell.swift */; };
+		4275F309279735BF007BBC9B /* PassengerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4275F307279735BF007BBC9B /* PassengerTableViewCell.xib */; };
+		4275F30B27973B78007BBC9B /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F30A27973B78007BBC9B /* Passenger.swift */; };
+		4275F30D27974024007BBC9B /* PassengerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F30C27974024007BBC9B /* PassengerViewModel.swift */; };
+		4275F31027974102007BBC9B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F30F27974102007BBC9B /* DetailsViewController.swift */; };
+		4275F31627980A9B007BBC9B /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F31527980A9B007BBC9B /* ErrorModel.swift */; };
+		4275F31A27981082007BBC9B /* CreatePassengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275F31927981082007BBC9B /* CreatePassengerViewController.swift */; };
+		6750BB79C7CFEC924D748A7B /* Pods_AirlineProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4B13019909F21DA59F1954 /* Pods_AirlineProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A8F3E6AE74902DE32747FC2 /* Pods-AirlineProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirlineProject.release.xcconfig"; path = "Target Support Files/Pods-AirlineProject/Pods-AirlineProject.release.xcconfig"; sourceTree = "<group>"; };
+		4233DC90279C583400F3B1F6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		4233DC92279C599D00F3B1F6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		4233DC95279C5B5F00F3B1F6 /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4233DC96279C5B5F00F3B1F6 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4233DC97279C5B5F00F3B1F6 /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4233DC98279C5B5F00F3B1F6 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		4233DC99279C5B5F00F3B1F6 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		4233DC9A279C5B5F00F3B1F6 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		4233DC9B279C5B5F00F3B1F6 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		4233DC9C279C5B5F00F3B1F6 /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4233DC9D279C5B5F00F3B1F6 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		4233DC9E279C5B5F00F3B1F6 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4233DC9F279C5B5F00F3B1F6 /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4233DCA0279C5B5F00F3B1F6 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4233DCA1279C5B5F00F3B1F6 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		4233DCA2279C5B5F00F3B1F6 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		4233DCB1279C5C2E00F3B1F6 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		4233DCB3279CB69300F3B1F6 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		4233DCB4279CB69300F3B1F6 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		427473A22798447D00E37BE5 /* PassengersDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengersDetail.swift; sourceTree = "<group>"; };
+		427473A627985F4600E37BE5 /* CreatePassengerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePassengerViewModel.swift; sourceTree = "<group>"; };
+		4275F2E42796EA60007BBC9B /* AirlineProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirlineProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4275F2E72796EA60007BBC9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4275F2E92796EA60007BBC9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4275F2EB2796EA60007BBC9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4275F2EE2796EA60007BBC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4275F2F02796EA64007BBC9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4275F2F32796EA64007BBC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4275F2F52796EA64007BBC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4275F3012796FBB3007BBC9B /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		4275F303279703B8007BBC9B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4275F306279735BF007BBC9B /* PassengerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerTableViewCell.swift; sourceTree = "<group>"; };
+		4275F307279735BF007BBC9B /* PassengerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PassengerTableViewCell.xib; sourceTree = "<group>"; };
+		4275F30A27973B78007BBC9B /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		4275F30C27974024007BBC9B /* PassengerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerViewModel.swift; sourceTree = "<group>"; };
+		4275F30F27974102007BBC9B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		4275F31527980A9B007BBC9B /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		4275F31927981082007BBC9B /* CreatePassengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePassengerViewController.swift; sourceTree = "<group>"; };
+		6B4B13019909F21DA59F1954 /* Pods_AirlineProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirlineProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF41E524FAB4A800B9AAB99B /* Pods-AirlineProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirlineProject.debug.xcconfig"; path = "Target Support Files/Pods-AirlineProject/Pods-AirlineProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4275F2E12796EA60007BBC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6750BB79C7CFEC924D748A7B /* Pods_AirlineProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004F4D6822D5E59B2BB6AD82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF41E524FAB4A800B9AAB99B /* Pods-AirlineProject.debug.xcconfig */,
+				3A8F3E6AE74902DE32747FC2 /* Pods-AirlineProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4233DC8F279C580700F3B1F6 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				4233DC90279C583400F3B1F6 /* CustomTextField.swift */,
+				4233DC92279C599D00F3B1F6 /* CustomButton.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		4233DC94279C5B5F00F3B1F6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4233DC95279C5B5F00F3B1F6 /* Nunito-ExtraBoldItalic.ttf */,
+				4233DC96279C5B5F00F3B1F6 /* Nunito-ExtraBold.ttf */,
+				4233DC97279C5B5F00F3B1F6 /* Nunito-ExtraLightItalic.ttf */,
+				4233DC98279C5B5F00F3B1F6 /* Nunito-Light.ttf */,
+				4233DC99279C5B5F00F3B1F6 /* Nunito-Regular.ttf */,
+				4233DC9A279C5B5F00F3B1F6 /* Nunito-SemiBold.ttf */,
+				4233DC9B279C5B5F00F3B1F6 /* Nunito-Bold.ttf */,
+				4233DC9C279C5B5F00F3B1F6 /* Nunito-BoldItalic.ttf */,
+				4233DC9D279C5B5F00F3B1F6 /* Nunito-Black.ttf */,
+				4233DC9E279C5B5F00F3B1F6 /* Nunito-ExtraLight.ttf */,
+				4233DC9F279C5B5F00F3B1F6 /* Nunito-SemiBoldItalic.ttf */,
+				4233DCA0279C5B5F00F3B1F6 /* Nunito-BlackItalic.ttf */,
+				4233DCA1279C5B5F00F3B1F6 /* Nunito-Italic.ttf */,
+				4233DCA2279C5B5F00F3B1F6 /* Nunito-LightItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4275F2DB2796EA60007BBC9B = {
+			isa = PBXGroup;
+			children = (
+				4275F2E62796EA60007BBC9B /* AirlineProject */,
+				4275F2E52796EA60007BBC9B /* Products */,
+				004F4D6822D5E59B2BB6AD82 /* Pods */,
+				7958CE8BF11841C6BA55EA7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4275F2E52796EA60007BBC9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4275F2E42796EA60007BBC9B /* AirlineProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4275F2E62796EA60007BBC9B /* AirlineProject */ = {
+			isa = PBXGroup;
+			children = (
+				4275F2FE2796EB68007BBC9B /* Services */,
+				4275F2FD2796EB5B007BBC9B /* Model */,
+				4275F2FC2796EB50007BBC9B /* View */,
+				4275F2FB2796EB1B007BBC9B /* ViewModel */,
+				4233DC8F279C580700F3B1F6 /* CustomUI */,
+				4233DC94279C5B5F00F3B1F6 /* Fonts */,
+				4275F2E72796EA60007BBC9B /* AppDelegate.swift */,
+				4275F2E92796EA60007BBC9B /* SceneDelegate.swift */,
+				4275F2EB2796EA60007BBC9B /* ViewController.swift */,
+				4275F2ED2796EA60007BBC9B /* Main.storyboard */,
+				4275F2F02796EA64007BBC9B /* Assets.xcassets */,
+				4275F2F22796EA64007BBC9B /* LaunchScreen.storyboard */,
+				4275F2F52796EA64007BBC9B /* Info.plist */,
+			);
+			path = AirlineProject;
+			sourceTree = "<group>";
+		};
+		4275F2FB2796EB1B007BBC9B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4275F30C27974024007BBC9B /* PassengerViewModel.swift */,
+				427473A627985F4600E37BE5 /* CreatePassengerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4275F2FC2796EB50007BBC9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4275F30E279740B2007BBC9B /* Controller */,
+				4275F30527973527007BBC9B /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4275F2FD2796EB5B007BBC9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4275F30A27973B78007BBC9B /* Passenger.swift */,
+				4275F31527980A9B007BBC9B /* ErrorModel.swift */,
+				427473A22798447D00E37BE5 /* PassengersDetail.swift */,
+				4233DCB1279C5C2E00F3B1F6 /* URLs.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4275F2FE2796EB68007BBC9B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4275F3012796FBB3007BBC9B /* NetworkingManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4275F30527973527007BBC9B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4275F306279735BF007BBC9B /* PassengerTableViewCell.swift */,
+				4275F307279735BF007BBC9B /* PassengerTableViewCell.xib */,
+				4233DCB3279CB69300F3B1F6 /* DetailTableViewCell.swift */,
+				4233DCB4279CB69300F3B1F6 /* DetailTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4275F30E279740B2007BBC9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4275F303279703B8007BBC9B /* HomeViewController.swift */,
+				4275F30F27974102007BBC9B /* DetailsViewController.swift */,
+				4275F31927981082007BBC9B /* CreatePassengerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7958CE8BF11841C6BA55EA7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B4B13019909F21DA59F1954 /* Pods_AirlineProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4275F2E32796EA60007BBC9B /* AirlineProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4275F2F82796EA64007BBC9B /* Build configuration list for PBXNativeTarget "AirlineProject" */;
+			buildPhases = (
+				E103F2390BBBC928D08B9BA0 /* [CP] Check Pods Manifest.lock */,
+				4275F2E02796EA60007BBC9B /* Sources */,
+				4275F2E12796EA60007BBC9B /* Frameworks */,
+				4275F2E22796EA60007BBC9B /* Resources */,
+				7A1B7A58F77D0B7CE2599683 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirlineProject;
+			productName = AirlineProject;
+			productReference = 4275F2E42796EA60007BBC9B /* AirlineProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4275F2DC2796EA60007BBC9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					4275F2E32796EA60007BBC9B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 4275F2DF2796EA60007BBC9B /* Build configuration list for PBXProject "AirlineProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4275F2DB2796EA60007BBC9B;
+			productRefGroup = 4275F2E52796EA60007BBC9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4275F2E32796EA60007BBC9B /* AirlineProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4275F2E22796EA60007BBC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4233DCA5279C5B5F00F3B1F6 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				4233DCAC279C5B5F00F3B1F6 /* Nunito-ExtraLight.ttf in Resources */,
+				4275F2F42796EA64007BBC9B /* LaunchScreen.storyboard in Resources */,
+				4233DCAD279C5B5F00F3B1F6 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				4233DCB6279CB69300F3B1F6 /* DetailTableViewCell.xib in Resources */,
+				4233DCB0279C5B5F00F3B1F6 /* Nunito-LightItalic.ttf in Resources */,
+				4233DCA3279C5B5F00F3B1F6 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				4275F2F12796EA64007BBC9B /* Assets.xcassets in Resources */,
+				4233DCA8279C5B5F00F3B1F6 /* Nunito-SemiBold.ttf in Resources */,
+				4233DCA4279C5B5F00F3B1F6 /* Nunito-ExtraBold.ttf in Resources */,
+				4233DCAA279C5B5F00F3B1F6 /* Nunito-BoldItalic.ttf in Resources */,
+				4233DCA9279C5B5F00F3B1F6 /* Nunito-Bold.ttf in Resources */,
+				4275F309279735BF007BBC9B /* PassengerTableViewCell.xib in Resources */,
+				4233DCAB279C5B5F00F3B1F6 /* Nunito-Black.ttf in Resources */,
+				4233DCA7279C5B5F00F3B1F6 /* Nunito-Regular.ttf in Resources */,
+				4233DCA6279C5B5F00F3B1F6 /* Nunito-Light.ttf in Resources */,
+				4275F2EF2796EA60007BBC9B /* Main.storyboard in Resources */,
+				4233DCAE279C5B5F00F3B1F6 /* Nunito-BlackItalic.ttf in Resources */,
+				4233DCAF279C5B5F00F3B1F6 /* Nunito-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A1B7A58F77D0B7CE2599683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirlineProject/Pods-AirlineProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirlineProject/Pods-AirlineProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirlineProject/Pods-AirlineProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E103F2390BBBC928D08B9BA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirlineProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4275F2E02796EA60007BBC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4233DC91279C583400F3B1F6 /* CustomTextField.swift in Sources */,
+				4233DCB5279CB69300F3B1F6 /* DetailTableViewCell.swift in Sources */,
+				4275F31627980A9B007BBC9B /* ErrorModel.swift in Sources */,
+				4275F2EC2796EA60007BBC9B /* ViewController.swift in Sources */,
+				427473A727985F4600E37BE5 /* CreatePassengerViewModel.swift in Sources */,
+				4275F31A27981082007BBC9B /* CreatePassengerViewController.swift in Sources */,
+				4275F2E82796EA60007BBC9B /* AppDelegate.swift in Sources */,
+				4275F31027974102007BBC9B /* DetailsViewController.swift in Sources */,
+				4275F30D27974024007BBC9B /* PassengerViewModel.swift in Sources */,
+				4275F30B27973B78007BBC9B /* Passenger.swift in Sources */,
+				427473A32798447D00E37BE5 /* PassengersDetail.swift in Sources */,
+				4275F3022796FBB3007BBC9B /* NetworkingManager.swift in Sources */,
+				4233DCB2279C5C2E00F3B1F6 /* URLs.swift in Sources */,
+				4275F308279735BF007BBC9B /* PassengerTableViewCell.swift in Sources */,
+				4275F2EA2796EA60007BBC9B /* SceneDelegate.swift in Sources */,
+				4275F304279703B8007BBC9B /* HomeViewController.swift in Sources */,
+				4233DC93279C599D00F3B1F6 /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4275F2ED2796EA60007BBC9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4275F2EE2796EA60007BBC9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4275F2F22796EA64007BBC9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4275F2F32796EA64007BBC9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4275F2F62796EA64007BBC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4275F2F72796EA64007BBC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4275F2F92796EA64007BBC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF41E524FAB4A800B9AAB99B /* Pods-AirlineProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68RU3CFCXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirlineProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dm.AirlineProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4275F2FA2796EA64007BBC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8F3E6AE74902DE32747FC2 /* Pods-AirlineProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68RU3CFCXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirlineProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dm.AirlineProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4275F2DF2796EA60007BBC9B /* Build configuration list for PBXProject "AirlineProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4275F2F62796EA64007BBC9B /* Debug */,
+				4275F2F72796EA64007BBC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4275F2F82796EA64007BBC9B /* Build configuration list for PBXNativeTarget "AirlineProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4275F2F92796EA64007BBC9B /* Debug */,
+				4275F2FA2796EA64007BBC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4275F2DC2796EA60007BBC9B /* Project object */;
+}
